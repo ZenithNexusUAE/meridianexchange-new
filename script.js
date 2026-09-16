@@ -1628,10 +1628,9 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 // invitation modal + Google Sheets / email submission
+// Email setup: see google-apps-script/Code.gs and deploy as Web App
 
-const GOOGLE_SCRIPT_URL =
-  "https://script.google.com/macros/s/AKfycbwvqitdAXm8_ClWzgL--7cBnBrWAzcHDO5x6bNrjSvWHQ0wODBTQ7ABtzpJhcEZRgZv/exec";
-
+const GOOGLE_SCRIPT_URL ="https://script.google.com/macros/s/AKfycbwvqitdAXm8_ClWzgL--7cBnBrWAzcHDO5x6bNrjSvWHQ0wODBTQ7ABtzpJhcEZRgZv/exec";
 function getInviteFormPayload(form) {
   const data = new FormData(form);
 
