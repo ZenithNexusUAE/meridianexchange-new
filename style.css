@@ -5325,8 +5325,12 @@ body {
     display: flex;
 
     gap: 15px;
+    overflow-x: auto;
+    /* overflow: hidden; */
+  }
 
-    overflow: hidden;
+  .mx-rt-output {
+    bottom: -23px;
   }
 
   .mx-rt-card {
@@ -7943,7 +7947,7 @@ body {
   }
 
   .mx-process-number {
-    height: auto;
+    /* height: auto; */
     margin: 0;
   }
 
