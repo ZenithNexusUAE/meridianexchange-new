@@ -1644,6 +1644,7 @@ function getInviteFormPayload(form) {
     company: data.get("Company") || "",
     country: data.get("Country") || "",
     organisationType: data.get("Organisation Type") || "",
+    partnershipInterest: "Delegates",
     sponsorshipInterest: data.get("Sponsorship Interest") || "",
     estimatedBudgetRange: data.get("Estimated Budget Range") || "",
     message: data.get("Message") || "",
