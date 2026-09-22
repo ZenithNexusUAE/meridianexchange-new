@@ -12268,6 +12268,67 @@ body {
 }
 
 /* =========================================
+   INVITATION PAGE
+========================================= */
+
+.mx-invite-page-body {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #f4f9fd 0%, #eef4f7 100%);
+}
+
+.mx-invite-page {
+  min-height: calc(100vh - 82px);
+  padding: 46px 20px 72px;
+}
+
+.mx-invite-page-inner {
+  width: min(100%, 780px);
+  margin: 0 auto;
+}
+
+.mx-invite-back-link {
+  display: inline-flex;
+  margin-bottom: 16px;
+  color: #147ddd;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.mx-invite-back-link:hover {
+  color: #102b4d;
+}
+
+.mx-invite-page-dialog {
+  width: 100%;
+  max-height: none;
+  padding: 30px 32px 28px;
+  opacity: 1;
+  transform: none;
+}
+
+.mx-invite-page-dialog h1 {
+  margin: 12px 0 8px;
+  color: #102b4d;
+  font-size: clamp(28px, 4vw, 38px);
+  font-weight: 900;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+@media (max-width: 650px) {
+  .mx-invite-page {
+    padding: 28px 10px 46px;
+  }
+
+  .mx-invite-page-dialog {
+    padding: 20px 15px 16px;
+  }
+}
+
+/* =========================================
    RESPONSIVE
 ========================================= */
 
