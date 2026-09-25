@@ -47,14 +47,16 @@ window.MERIDIAN_SPEAKERS = [
     role: "CHAIRMAN",
     organization: "African-Asian Council for AI & Cybersecurity",
     image: "https://meridianexchange.net/images/nader-ghazal.png",
-    linkedin: "https://www.linkedin.com/in/drnaderghazal?utm_source=chatgpt.com",
+    linkedin:
+      "https://www.linkedin.com/in/drnaderghazal?utm_source=chatgpt.com",
   },
   {
     name: "Muhammad Shafique",
     role: "PROFESSOR, DIRECTOR EBRAIN & ICAS LAB",
     organization: "New York University (NYU) Abu Dhabi, UAE",
     image: "https://meridianexchange.net/images/muhammad-shafique.png",
-    linkedin: "https://www.linkedin.com/in/muhammadshafiq?utm_source=chatgpt.com",
+    linkedin:
+      "https://www.linkedin.com/in/muhammadshafiq?utm_source=chatgpt.com",
   },
   {
     name: "Prof Hossam Elshenraki",
@@ -76,7 +78,8 @@ window.MERIDIAN_SPEAKERS = [
     role: "HONORARY TRADE COMMISSIONER",
     organization: "India Commonwealth Trade Council",
     image: "https://meridianexchange.net/images/shiju-p.jpeg",
-    linkedin: "https://www.linkedin.com/in/shiju-p-5300aa20/?utm_source=chatgpt.com",
+    linkedin:
+      "https://www.linkedin.com/in/shiju-p-5300aa20/?utm_source=chatgpt.com",
   },
   {
     name: "Ahmed Mostafa",
@@ -91,14 +94,16 @@ window.MERIDIAN_SPEAKERS = [
     role: "DATA CENTER BUSINESS LEADER & GLOBAL ACCOUNTS DIRECTOR",
     organization: "Eaton | Middle East, Turkey & Africa",
     image: "https://meridianexchange.net/images/ammar-alhorani.png",
-    linkedin: "https://www.linkedin.com/in/ammaralhorani/?utm_source=chatgpt.com",
+    linkedin:
+      "https://www.linkedin.com/in/ammaralhorani/?utm_source=chatgpt.com",
   },
   {
     name: "Dr. Arianna Mazzeo",
     role: "SCHOOL OF COMMUNICATION & CREATIVE INDUSTRIES PROF.",
     organization: "Canadian University Dubai",
     image: "https://meridianexchange.net/images/arianna-mazzeo.jpeg",
-    linkedin: "https://www.linkedin.com/in/arimazzeoinnovation?utm_source=chatgpt.com",
+    linkedin:
+      "https://www.linkedin.com/in/arimazzeoinnovation?utm_source=chatgpt.com",
   },
   {
     name: "Heide Young",
@@ -112,7 +117,8 @@ window.MERIDIAN_SPEAKERS = [
     role: "PRINCIPAL SCIENTIST",
     organization: "Quantum Photonics",
     image: "https://meridianexchange.net/images/pramod-kumar.jpeg",
-    linkedin: "https://www.linkedin.com/in/drpramodkumar/?utm_source=chatgpt.com",
+    linkedin:
+      "https://www.linkedin.com/in/drpramodkumar/?utm_source=chatgpt.com",
   },
   {
     name: "Sanjay Kumar",
@@ -127,7 +133,8 @@ window.MERIDIAN_SPEAKERS = [
     role: "HEAD OF INFORMATION TECHNOLOGY",
     organization: "UAE Government Entity",
     image: "https://meridianexchange.net/images/jacob_mathew.jpeg",
-    linkedin: "https://www.linkedin.com/in/jacobkmathew/?utm_source=chatgpt.com",
+    linkedin:
+      "https://www.linkedin.com/in/jacobkmathew/?utm_source=chatgpt.com",
   },
   {
     name: "Andrea Stazi",
@@ -135,34 +142,81 @@ window.MERIDIAN_SPEAKERS = [
     organization:
       "San Raffaele University of Rome | Academic Fellow, Centre for Technology, Robotics, AI & the Law, National University of Singapore",
     image: "https://meridianexchange.net/images/aandrea_stazi.jpeg",
-    linkedin: "https://www.linkedin.com/in/andrea-stazi-16381219?utm_source=chatgpt.com",
+    linkedin:
+      "https://www.linkedin.com/in/andrea-stazi-16381219?utm_source=chatgpt.com",
   },
   {
     name: "Dr. Naim Maadad",
     role: "CHAIRMAN",
     organization: "Australian Business Council",
     image: "https://meridianexchange.net/images/naim_maadad.png",
-    linkedin: "https://www.linkedin.com/in/dr-naim-maadad-04475b4/?utm_source=chatgpt.com",
+    linkedin:
+      "https://www.linkedin.com/in/dr-naim-maadad-04475b4/?utm_source=chatgpt.com",
   },
   {
     name: "Himmath Mohammed",
     role: "CHIEF INFORMATION OFFICER",
     organization: "Gulf Data Hub",
     image: "https://meridianexchange.net/images/himmath-mohammed.jpeg",
-    linkedin: "https://www.linkedin.com/in/himmathmohammed/?utm_source=chatgpt.com",
+    linkedin:
+      "https://www.linkedin.com/in/himmathmohammed/?utm_source=chatgpt.com",
   },
   {
     name: "Vanessa Abernethy",
     role: "CHAIRMAN",
     organization: "New Zealand Business Council - UAE",
     image: "https://meridianexchange.net/images/vanessa-bernethy.png",
-    linkedin: "https://www.linkedin.com/in/vanessa-abernethy-799a123/?utm_source=chatgpt.com",
+    linkedin:
+      "https://www.linkedin.com/in/vanessa-abernethy-799a123/?utm_source=chatgpt.com",
   },
   {
     name: "Akmaral Orazaly",
     role: "PRINCIPAL RESEARCHER",
     organization: "Mohammed Bin Rashid School of Government",
     image: "https://meridianexchange.net/images/akmaral-orazaly.jpeg",
-    linkedin: "https://www.linkedin.com/in/akmaral-orazaly/?utm_source=chatgpt.com",
+    linkedin:
+      "https://www.linkedin.com/in/akmaral-orazaly/?utm_source=chatgpt.com",
+  },
+  {
+    name: "Dr. Anas Najdawi",
+    role: "DIRECTOR OF ABU DHABI UNIVERSITY'S DUBAI CAMPUS · MODERATOR",
+    organization: "Abu Dhabi University",
+    image: "./images/Dr. Anas Najdawi.png",
+    linkedin: "https://www.linkedin.com/in/anasnajdawi/?locale=ar",
+  },
+  {
+    name: "Eng. Sameh Hahlias",
+    role: "CEO / FOUNDER / AI ADVISOR · MODERATOR",
+    organization: "American Plus",
+    image: "./images/Eng. Sameh Hablas.jpg",
+    linkedin: "https://www.linkedin.com/in/samehhahlias/",
+  },
+  {
+    name: "Maryam Al Mansoori",
+    role: "HEAD OF CAPACITY BUILDING, ARTIFICIAL INTELLIGENCE, DIGITAL ECONOMY AND REMOTE WORK APPLICATIONS OFFICE",
+    organization: "UAE Government",
+    image: "./images/Maryam Al Mansoori.jpeg",
+    linkedin: "https://www.linkedin.com/in/maryam-al-mansoori/",
+  },
+  {
+    name: "Khulood Abdulrahman Alawadhi",
+    role: "DIRECTOR - ADVANCED TECHNOLOGY SERVICES",
+    organization: "MORO HUB",
+    image: "./images/Khulood Abdulrahman Alawadhi.jpg",
+    linkedin: "https://www.linkedin.com/in/khulood-alawadhi-a46a4b50/",
+  },
+  {
+    name: "Haris M. Khalid",
+    role: "ASSOCIATE PROFESSOR",
+    organization: "University of Dubai",
+    image: "./images/Haris M. Khalid.png",
+    linkedin: "https://www.linkedin.com/in/harismkhalid/",
+  },
+  {
+    name: "Adel Miran",
+    role: "DIRECTOR OF FACILITIES MANAGEMENT & ADMINISTRATION",
+    organization: "Dubai Holding",
+    image: "./images/Adel Meridian.jpg",
+    linkedin: "https://www.linkedin.com/in/adel-miran-09802835/",
   },
 ];

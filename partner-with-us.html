@@ -1,159 +1,248 @@
 <!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Partner With Us | Meridian Exchange</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Partner With Us | Meridian Exchange</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./image/fevicon.png" type="image/png" />
+  </head>
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
-  <link rel="stylesheet" href="style.css" />
-  <link rel="icon" href="./image/fevicon.png" type="image/png" />
-</head>
-
-<body class="mx-invite-page-body">
-  <header class="topbar">
-    <nav class="navbar navbar-expand-lg navbar-light site-navbar">
-      <div class="container-fluid nav-wrap">
-        <div class="navbar-brand brand-group">
-          <a class="brand" href="index.html" aria-label="Meridian Exchange">
-            <img class="brand-partner-logo" src="./image/logoME.jpeg" alt="Dubai Police Academy Logo" />
-          </a>
-          <span class="brand-separator" aria-hidden="true"></span>
-          <a class="brand brand-partner" href="index.html" aria-label="Zenith Nexus">
-            <img class="brand-logo" src="./image/Zenith Nexus Logo.png" alt="Meridian Exchange Logo" />
-          </a>
-        </div>
-
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavigation"
-          aria-controls="mainNavigation" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="mainNavigation">
-          <ul class="navbar-nav ms-auto main-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html#home">HOME</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="index.html#about">ABOUT</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="speakers.html">SPEAKERS</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="index.html#roundtables">ROUNDTABLES</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="partner-with-us.html" aria-current="page">PARTNER WITH US</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </header>
-
-  <main class="mx-invite-page">
-    <div class="mx-invite-page-inner">
-      <a class="mx-invite-back-link" href="index.html">← Back to Home</a>
-
-      <section class="mx-invite-dialog mx-invite-page-dialog" aria-labelledby="mxPartnerTitle">
-        <div class="mx-invite-header">
-          <span class="mx-invite-label">Meridian Exchange 2026</span>
-          <h1 id="mxPartnerTitle">Partner With Us</h1>
-          <div class="mx-invite-heading-line"><span></span></div>
-          <p>
-            Tell us how you would like to partner with Meridian Exchange and a
-            member of our team will be in touch.
-          </p>
-        </div>
-
-        <form class="mx-invite-form" id="mxPartnerForm">
-          <input type="hidden" name="Enquiry Type" value="Partner With Us" />
-
-          <div class="mx-invite-form-grid">
-            <div class="mx-invite-field">
-              <label for="mxPartnerFirstName">First Name*</label>
-              <input type="text" id="mxPartnerFirstName" name="First Name" required autocomplete="given-name" />
-            </div>
-            <div class="mx-invite-field">
-              <label for="mxPartnerLastName">Last Name*</label>
-              <input type="text" id="mxPartnerLastName" name="Last Name" required autocomplete="family-name" />
-            </div>
-            <div class="mx-invite-field">
-              <label for="mxPartnerBusinessEmail">Business Email*</label>
-              <input type="email" id="mxPartnerBusinessEmail" name="Business Email" required autocomplete="email" />
-            </div>
-            <div class="mx-invite-field">
-              <label for="mxPartnerMobileNumber">Mobile Number*</label>
-              <input type="tel" id="mxPartnerMobileNumber" name="Mobile Number" required autocomplete="tel" />
-            </div>
-            <div class="mx-invite-field">
-              <label for="mxPartnerJobTitle">Job Title*</label>
-              <input type="text" id="mxPartnerJobTitle" name="Job Title" required autocomplete="organization-title" />
-            </div>
-            <div class="mx-invite-field">
-              <label for="mxPartnerOrganisation">Company / Organisation*</label>
-              <input type="text" id="mxPartnerOrganisation" name="Company" required autocomplete="organization" />
-            </div>
-            <div class="mx-invite-field">
-              <label for="mxPartnerCountry">Country*</label>
-              <input type="text" id="mxPartnerCountry" name="Country" required autocomplete="country-name" />
-            </div>
-            <div class="mx-invite-field">
-              <label for="mxPartnerOrganisationType">Organisation Type*</label>
-              <select id="mxPartnerOrganisationType" name="Organisation Type" required>
-                <option value="">Select</option>
-                <option>Government Authority / Regulator</option>
-                <option>Central Bank / Financial Regulator</option>
-                <option>Bank / Financial Institution</option>
-                <option>Cloud / Hyperscaler</option>
-                <option>Data Centre / Infrastructure Operator</option>
-                <option>Cybersecurity / Technology Provider</option>
-                <option>Investor / Advisory / Legal</option>
-                <option>Media / Association</option>
-                <option>Other</option>
-              </select>
-            </div>
-            <div class="mx-invite-field">
-              <label for="mxPartnerInterest">Partner With Us*</label>
-              <select id="mxPartnerInterest" name="Partnership Interest" required>
-                <option value="">Select</option>
-                <option value="Sponsor">Sponsor</option>
-                <option value="Exhibitor">Exhibitor</option>
-                <option value="Media Partner">Media Partner</option>
-                <option value="Knowledge Partner">Knowledge Partner</option>
-              </select>
-            </div>
-            <div class="mx-invite-field mx-invite-message-field full-width">
-              <label for="mxPartnerMessage">Message / Area of Interest</label>
-              <textarea id="mxPartnerMessage" name="Message" rows="4"
-                placeholder="Tell us about your partnership objectives or any questions."></textarea>
-            </div>
+  <body class="mx-invite-page-body">
+    <header class="topbar">
+      <nav class="navbar navbar-expand-lg navbar-light site-navbar">
+        <div class="container-fluid nav-wrap">
+          <div class="navbar-brand brand-group">
+            <a class="brand" href="index.html" aria-label="Meridian Exchange">
+              <img
+                class="brand-partner-logo"
+                src="./image/logoME.jpeg"
+                alt="Dubai Police Academy Logo"
+              />
+            </a>
+            <span class="brand-separator" aria-hidden="true"></span>
+            <a
+              class="brand brand-partner"
+              href="index.html"
+              aria-label="Zenith Nexus"
+            >
+              <img
+                class="brand-logo"
+                src="./image/Zenith Nexus Logo.png"
+                alt="Meridian Exchange Logo"
+              />
+            </a>
           </div>
 
-          <label class="mx-invite-consent">
-            <input type="checkbox" name="Consent" required />
-            <span>I agree to be contacted by Zenith Nexus regarding Meridian
-              Exchange.</span>
-          </label>
-
-          <button type="submit" class="mx-invite-submit">
-            <span>Submit Partnership Request</span><span>→</span>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainNavigation"
+            aria-controls="mainNavigation"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
           </button>
 
-          <p class="mx-invite-note">
-            Your enquiry will be securely submitted to the Meridian Exchange
-            Secretariat. A member of our team will contact you shortly.
-          </p>
-        </form>
-      </section>
-    </div>
-  </main>
+          <div class="collapse navbar-collapse" id="mainNavigation">
+            <ul class="navbar-nav ms-auto main-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="speakers.html">SPEAKERS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="insights.html">INSIGHTS</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  href="partner-with-us.html"
+                  aria-current="page"
+                  >PARTNER WITH US</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="partner-with-us.js"></script>
-</body>
+    <main class="mx-invite-page">
+      <div class="mx-invite-page-inner">
+        <a class="mx-invite-back-link" href="index.html">← Back to Home</a>
 
+        <section
+          class="mx-invite-dialog mx-invite-page-dialog"
+          aria-labelledby="mxPartnerTitle"
+        >
+          <div class="mx-invite-header">
+            <span class="mx-invite-label">Meridian Exchange 2026</span>
+            <h1 id="mxPartnerTitle">Partner With Us</h1>
+            <div class="mx-invite-heading-line"><span></span></div>
+            <p>
+              Tell us how you would like to partner with Meridian Exchange and a
+              member of our team will be in touch.
+            </p>
+          </div>
+
+          <form class="mx-invite-form" id="mxPartnerForm">
+            <input type="hidden" name="Enquiry Type" value="Partner With Us" />
+
+            <div class="mx-invite-form-grid">
+              <div class="mx-invite-field">
+                <label for="mxPartnerFirstName">First Name*</label>
+                <input
+                  type="text"
+                  id="mxPartnerFirstName"
+                  name="First Name"
+                  required
+                  autocomplete="given-name"
+                />
+              </div>
+              <div class="mx-invite-field">
+                <label for="mxPartnerLastName">Last Name*</label>
+                <input
+                  type="text"
+                  id="mxPartnerLastName"
+                  name="Last Name"
+                  required
+                  autocomplete="family-name"
+                />
+              </div>
+              <div class="mx-invite-field">
+                <label for="mxPartnerBusinessEmail">Business Email*</label>
+                <input
+                  type="email"
+                  id="mxPartnerBusinessEmail"
+                  name="Business Email"
+                  required
+                  autocomplete="email"
+                />
+              </div>
+              <div class="mx-invite-field">
+                <label for="mxPartnerMobileNumber">Mobile Number*</label>
+                <input
+                  type="tel"
+                  id="mxPartnerMobileNumber"
+                  name="Mobile Number"
+                  required
+                  autocomplete="tel"
+                />
+              </div>
+              <div class="mx-invite-field">
+                <label for="mxPartnerJobTitle">Job Title*</label>
+                <input
+                  type="text"
+                  id="mxPartnerJobTitle"
+                  name="Job Title"
+                  required
+                  autocomplete="organization-title"
+                />
+              </div>
+              <div class="mx-invite-field">
+                <label for="mxPartnerOrganisation"
+                  >Company / Organisation*</label
+                >
+                <input
+                  type="text"
+                  id="mxPartnerOrganisation"
+                  name="Company"
+                  required
+                  autocomplete="organization"
+                />
+              </div>
+              <div class="mx-invite-field">
+                <label for="mxPartnerCountry">Country*</label>
+                <input
+                  type="text"
+                  id="mxPartnerCountry"
+                  name="Country"
+                  required
+                  autocomplete="country-name"
+                />
+              </div>
+              <div class="mx-invite-field">
+                <label for="mxPartnerOrganisationType"
+                  >Organisation Type*</label
+                >
+                <select
+                  id="mxPartnerOrganisationType"
+                  name="Organisation Type"
+                  required
+                >
+                  <option value="">Select</option>
+                  <option>Government Authority / Regulator</option>
+                  <option>Central Bank / Financial Regulator</option>
+                  <option>Bank / Financial Institution</option>
+                  <option>Cloud / Hyperscaler</option>
+                  <option>Data Centre / Infrastructure Operator</option>
+                  <option>Cybersecurity / Technology Provider</option>
+                  <option>Investor / Advisory / Legal</option>
+                  <option>Media / Association</option>
+                  <option>Other</option>
+                </select>
+              </div>
+              <div class="mx-invite-field">
+                <label for="mxPartnerInterest">Partner With Us*</label>
+                <select
+                  id="mxPartnerInterest"
+                  name="Partnership Interest"
+                  required
+                >
+                  <option value="">Select</option>
+                  <option value="Sponsor">Sponsor</option>
+                  <option value="Exhibitor">Exhibitor</option>
+                  <option value="Media Partner">Media Partner</option>
+                  <option value="Knowledge Partner">Knowledge Partner</option>
+                </select>
+              </div>
+              <div class="mx-invite-field mx-invite-message-field full-width">
+                <label for="mxPartnerMessage">Message / Area of Interest</label>
+                <textarea
+                  id="mxPartnerMessage"
+                  name="Message"
+                  rows="4"
+                  placeholder="Tell us about your partnership objectives or any questions."
+                ></textarea>
+              </div>
+            </div>
+
+            <label class="mx-invite-consent">
+              <input type="checkbox" name="Consent" required />
+              <span
+                >I agree to be contacted by Zenith Nexus regarding Meridian
+                Exchange.</span
+              >
+            </label>
+
+            <button type="submit" class="mx-invite-submit">
+              <span>Submit Partnership Request</span><span>→</span>
+            </button>
+
+            <p class="mx-invite-note">
+              Your enquiry will be securely submitted to the Meridian Exchange
+              Secretariat. A member of our team will contact you shortly.
+            </p>
+          </form>
+        </section>
+      </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="partner-with-us.js"></script>
+  </body>
 </html>

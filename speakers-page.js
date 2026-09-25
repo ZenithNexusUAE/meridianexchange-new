@@ -9,18 +9,37 @@ function escapeHtml(value) {
 
 function renderSpeakerCard(speaker) {
   const linkedinUrl = speaker.linkedin || "#";
+  const speakerImageClass =
+    speaker.name === "Eng. Sameh Hahlias" ? " mx-speaker-image-sameh" : "";
+  const initials = speaker.name
+    .replace(/^(Dr\.|Prof|Eng\.)\s+/i, "")
+    .split(/\s+/)
+    .filter(Boolean)
+    .slice(0, 2)
+    .map(function (part) {
+      return part.charAt(0);
+    })
+    .join("")
+    .toUpperCase();
+  const imageMarkup = speaker.image
+    ? '<img src="' +
+      escapeHtml(speaker.image) +
+      '" alt="' +
+      escapeHtml(speaker.name) +
+      '" loading="lazy" />'
+    : '<div class="mx-speaker-placeholder" aria-hidden="true">' +
+      initials +
+      "</div>";
 
   return (
     '<article class="mx-speaker-card">' +
     '<a class="mx-speaker-link" href="' +
     escapeHtml(linkedinUrl) +
     '" target="_blank" rel="noopener noreferrer">' +
-    '<div class="mx-speaker-image">' +
-    '<img src="' +
-    escapeHtml(speaker.image) +
-    '" alt="' +
-    escapeHtml(speaker.name) +
-    '" loading="lazy" />' +
+    '<div class="mx-speaker-image' +
+    speakerImageClass +
+    '">' +
+    imageMarkup +
     '<div class="mx-speaker-image-overlay"></div>' +
     "</div>" +
     "</a>" +
@@ -54,7 +73,8 @@ function initSpeakersGrid() {
   grid.innerHTML = window.MERIDIAN_SPEAKERS.map(renderSpeakerCard).join("");
 
   if (countEl) {
-    countEl.textContent = window.MERIDIAN_SPEAKERS.length + " Confirmed Speakers";
+    countEl.textContent =
+      window.MERIDIAN_SPEAKERS.length + " Confirmed Speakers";
   }
 }
 

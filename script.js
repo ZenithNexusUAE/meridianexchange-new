@@ -94,12 +94,17 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function startCounters() {
     if (counterStarted) return;
-    
 
     counterStarted = true;
 
     counters.forEach(function (counter) {
-      const target = parseInt(counter.dataset.target, 10);
+      const rawTarget = counter.dataset.target;
+
+      if (!rawTarget) return;
+
+      const target = parseInt(rawTarget, 10);
+
+      if (Number.isNaN(target)) return;
 
       const duration = 1300;
 
@@ -1630,7 +1635,8 @@ document.addEventListener("DOMContentLoaded", function () {
 // invitation modal + Google Sheets / email submission
 // Email setup: see google-apps-script/Code.gs and deploy as Web App
 
-const GOOGLE_SCRIPT_URL ="https://script.google.com/macros/s/AKfycbwvqitdAXm8_ClWzgL--7cBnBrWAzcHDO5x6bNrjSvWHQ0wODBTQ7ABtzpJhcEZRgZv/exec";
+const GOOGLE_SCRIPT_URL =
+  "https://script.google.com/macros/s/AKfycbwvqitdAXm8_ClWzgL--7cBnBrWAzcHDO5x6bNrjSvWHQ0wODBTQ7ABtzpJhcEZRgZv/exec";
 function getInviteFormPayload(form) {
   const data = new FormData(form);
 
@@ -1694,12 +1700,16 @@ function initInvitationModal() {
   closeButton.addEventListener("click", closeModal);
   backdrop.addEventListener("click", closeModal);
 
-  document.querySelectorAll('a[href="#invitation"], a[href="#request-access"], a[href="#request-invitation"]').forEach((link) => {
-    link.addEventListener("click", (event) => {
-      event.preventDefault();
-      openModal();
+  document
+    .querySelectorAll(
+      'a[href="#invitation"], a[href="#request-access"], a[href="#request-invitation"]',
+    )
+    .forEach((link) => {
+      link.addEventListener("click", (event) => {
+        event.preventDefault();
+        openModal();
+      });
     });
-  });
 
   document.addEventListener("keydown", (event) => {
     if (event.key === "Escape" && modal.classList.contains("is-open")) {
