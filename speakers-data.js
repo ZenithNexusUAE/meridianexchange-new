@@ -220,3 +220,42 @@ window.MERIDIAN_SPEAKERS = [
     linkedin: "https://www.linkedin.com/in/adel-miran-09802835/",
   },
 ];
+
+const requestedSpeakerOrder = [
+  "Naser Al-Rashedi",
+  "Maryam Al Mansoori",
+  "Adel Miran",
+  "Khulood Abdulrahman Alawadhi",
+  "Prof Hossam Elshenraki",
+  "Vijay Velayutham",
+  "Jacob Mathew",
+  "Christopher Booth",
+  "Jonathan A Kwofie",
+  "Ammar Al Horani",
+  "Sanjay Kumar",
+  "Dr. Anas Najdawi",
+  "Eng. Sameh Hahlias",
+  "Ahmed Mostafa",
+  "Kanat Kutluk",
+  "Dr. Naim Maadad",
+  "Dr. Nader M. Ghazal",
+  "Vanessa Abernethy",
+  "Himmath Mohammed",
+];
+
+const requestedSpeakerOrderIndex = new Map(
+  requestedSpeakerOrder.map(function (name, index) {
+    return [name, index];
+  }),
+);
+
+window.MERIDIAN_SPEAKERS.sort(function (firstSpeaker, secondSpeaker) {
+  const firstIndex = requestedSpeakerOrderIndex.has(firstSpeaker.name)
+    ? requestedSpeakerOrderIndex.get(firstSpeaker.name)
+    : Number.MAX_SAFE_INTEGER;
+  const secondIndex = requestedSpeakerOrderIndex.has(secondSpeaker.name)
+    ? requestedSpeakerOrderIndex.get(secondSpeaker.name)
+    : Number.MAX_SAFE_INTEGER;
+
+  return firstIndex - secondIndex;
+});
