@@ -2,8 +2,8 @@ window.MERIDIAN_SPEAKERS = [
   {
     name: "Naser Al-Rashedi",
     role: "TECHNOLOGY POLICY & GOVERNANCE EXPERT",
-    organization: "Confidential",
-    image: "https://meridianexchange.net/images/naser-alrashdi.jpeg",
+    organization: "UAE Government Entity",
+    image: "https://meridianexchange.net/images/naser-alrashdi.png",
     linkedin: "https://www.linkedin.com/in/naser-alrashdi-alrashedi-81a367104/",
   },
   {
