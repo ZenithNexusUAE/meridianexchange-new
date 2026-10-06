@@ -193,7 +193,7 @@ window.MERIDIAN_SPEAKERS = [
   },
   {
     name: "Maryam Al Mansoori",
-    role: "HEAD OF CAPACITY BUILDING, ARTIFICIAL INTELLIGENCE, DIGITAL ECONOMY AND REMOTE WORK APPLICATIONS OFFICE",
+    role: "HEAD OF CAPACITY BUILDING, Office of AI, DIGITAL ECONOMY AND REMOTE WORK APPLICATIONS",
     organization: "UAE Government",
     image: "./images/Maryam Al Mansoori.jpeg",
     linkedin: "https://www.linkedin.com/in/maryam-al-mansoori/",
