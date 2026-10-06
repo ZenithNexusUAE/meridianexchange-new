@@ -13250,11 +13250,8 @@ body {
     transition: none;
   }
 }
-/* =========================================
-   MERIDIAN EXCHANGE — LATEST NEWS
-========================================= */
 
-.mx-news-section {
+/* .mx-news-section {
   --news-navy: #102b35;
   --news-blue: #1c4b9d;
   --news-blue-light: #2f6fbd;
@@ -13277,9 +13274,6 @@ body {
   margin: 0 auto;
 }
 
-/* =========================================
-   HEADER
-========================================= */
 
 .mx-news-header {
   display: flex;
@@ -13393,9 +13387,6 @@ body {
   transform: translateX(4px);
 }
 
-/* =========================================
-   NEWS GRID
-========================================= */
 
 .mx-news-grid {
   display: grid;
@@ -13405,9 +13396,6 @@ body {
   gap: 34px 20px;
 }
 
-/* =========================================
-   NEWS CARD
-========================================= */
 
 .mx-news-card {
   min-width: 0;
@@ -13421,9 +13409,6 @@ body {
   transform: translateY(-5px);
 }
 
-/* =========================================
-   IMAGE
-========================================= */
 
 .mx-news-image {
   position: relative;
@@ -13476,9 +13461,6 @@ body {
   transform: scale(1.07);
 }
 
-/* =========================================
-   CATEGORY
-========================================= */
 
 .mx-news-category {
   position: absolute;
@@ -13501,9 +13483,6 @@ body {
   letter-spacing: 0.1em;
 }
 
-/* =========================================
-   ARROW
-========================================= */
 
 .mx-news-arrow {
   position: absolute;
@@ -13542,9 +13521,6 @@ body {
   transform: rotate(5deg);
 }
 
-/* =========================================
-   CONTENT
-========================================= */
 
 .mx-news-content {
   padding-top: 15px;
@@ -13605,9 +13581,6 @@ body {
   line-height: 1.65;
 }
 
-/* =========================================
-   BOTTOM BRAND STRIP
-========================================= */
 
 .mx-news-footer {
   display: flex;
@@ -13649,9 +13622,6 @@ body {
   color: var(--news-blue);
 }
 
-/* =========================================
-   LARGE DESKTOP
-========================================= */
 
 @media (max-width: 1100px) {
   .mx-news-grid {
@@ -13663,9 +13633,6 @@ body {
   }
 }
 
-/* =========================================
-   TABLET
-========================================= */
 
 @media (max-width: 800px) {
   .mx-news-section {
@@ -13692,10 +13659,6 @@ body {
     height: 210px;
   }
 }
-
-/* =========================================
-   MOBILE
-========================================= */
 
 @media (max-width: 560px) {
   .mx-news-section {
@@ -13733,4 +13696,4 @@ body {
     text-align: center;
     white-space: normal;
   }
-}
+} */
