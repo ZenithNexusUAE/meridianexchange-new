@@ -219,6 +219,66 @@ window.MERIDIAN_SPEAKERS = [
     image: "./images/Adel Meridian.jpg",
     linkedin: "https://www.linkedin.com/in/adel-miran-09802835/",
   },
+  {
+    name: "Sadiya Kausar",
+    role: "CO-FOUNDER & ECOSYSTEM BUILDER",
+    organization: "Decoding Data Science",
+    linkedin:
+      "https://www.linkedin.com/in/sadiya-kauser-ahmad/?isSelfProfile=false",
+  },
+  {
+    name: "Wajdi Mereb",
+    role: "DIGITAL TRANSFORMATION AND INNOVATION LEADER",
+    organization: "",
+    image: "./images/Wajdi Mereb.png",
+    linkedin: "https://www.linkedin.com/in/wajdimereb/",
+  },
+  {
+    name: "Muhammad Awais Afzal Mirza",
+    role: "CO-FOUNDER AND PRESIDENT",
+    organization: "Khalifa University Quantum Computing Initiative (KU QCI)",
+    image: "./images/Muhammad Awais Afzal Mirza.jpg",
+    linkedin:
+      "https://www.linkedin.com/in/muhammad-awais-afzal-mirza-31ba59331/",
+  },
+  {
+    name: "Ram Jalan",
+    role: "VP, TRANSFORMATION AND PRODUCT",
+    organization: "",
+    image: "./images/Ram Jalan.jpg",
+    linkedin: "https://www.linkedin.com/in/ramjalan/",
+  },
+  {
+    name: "Mrs. Emine Yilmaz Butun",
+    role: "FOUNDING CHAIRPERSON",
+    organization: "ITT Nexus",
+    image: "./images/Emine Yilmaz Butun.jpg",
+    linkedin: "https://www.linkedin.com/in/emineyilmazbutun/",
+  },
+  {
+    name: "Dr. Raphael Heffron",
+    role: "DEAN OF COLLEGE OF LAW",
+    organization: "Abu Dhabi University",
+    image: "./images/Raphael Heffron.jpg",
+    linkedin:
+      "https://www.linkedin.com/in/prof-raphael-heffron-justtransition-energyjustice-socialcontract-sustainability/",
+  },
+  {
+    name: "Dr. Nasiruddeen Muhammad",
+    role: "ASSISTANT PROFESSOR OF COMMERCIAL LAW",
+    organization: "Abu Dhabi University",
+    image: "./images/Nasiruddeen Muhammad.jpg",
+    linkedin:
+      "https://www.linkedin.com/in/nasiruddeen-muhammad-907a4317/?isSelfProfile=false",
+  },
+  {
+    name: "Basema Aljaberi",
+    role: "MEMBER",
+    organization:
+      "Association for the Advancement of Artificial Intelligence (AAAI)",
+    image: "./images/Basema Aljaberi.jpg",
+    linkedin: "https://www.linkedin.com/in/basema/?isSelfProfile=false",
+  },
 ];
 
 const requestedSpeakerOrder = [
@@ -248,6 +308,17 @@ const requestedSpeakerOrder = [
   "Eng. Sameh Hahlias",
   "Ammar Al Horani",
   "Dr. Anas Najdawi",
+  "Antonio Rotondo",
+  "Shiju P.",
+  "Dr. Pramod Kumar",
+  "Sadiya Kausar",
+  "Wajdi Mereb",
+  "Muhammad Awais Afzal Mirza",
+  "Ram Jalan",
+  "Mrs. Emine Yilmaz Butun",
+  "Dr. Raphael Heffron",
+  "Dr. Nasiruddeen Muhammad",
+  "Basema Aljaberi",
 ];
 
 const requestedSpeakerOrderIndex = new Map(
