@@ -138,7 +138,7 @@ window.MERIDIAN_SPEAKERS = [
   },
   {
     name: "Andrea Stazi",
-    role: "PROFESSOR OF COMPARATIVE LAW OF NEW TECHNOLOGIES",
+    role: "Professor of Comparative & New Technology Law, Rome & Dubai /CEO of Techno Polis",
     organization:
       "San Raffaele University of Rome | Academic Fellow, Centre for Technology, Robotics, AI & the Law, National University of Singapore",
     image: "https://meridianexchange.net/images/aandrea_stazi.jpeg",
