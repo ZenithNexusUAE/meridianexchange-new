@@ -209,7 +209,7 @@ window.MERIDIAN_SPEAKERS = [
     name: "Haris M. Khalid",
     role: "ASSOCIATE PROFESSOR",
     organization: "University of Dubai",
-    image: "./images/Haris M. Khalid.png",
+    image: "./images/Haris M. Khalid.jpeg",
     linkedin: "https://www.linkedin.com/in/harismkhalid/",
   },
   {
@@ -223,6 +223,7 @@ window.MERIDIAN_SPEAKERS = [
     name: "Sadiya Kausar",
     role: "CO-FOUNDER & ECOSYSTEM BUILDER",
     organization: "Decoding Data Science",
+    image: "./images/SadiyaKausar.jpeg",
     linkedin:
       "https://www.linkedin.com/in/sadiya-kauser-ahmad/?isSelfProfile=false",
   },
