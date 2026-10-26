@@ -1,6 +1,6 @@
 window.MERIDIAN_SPEAKERS = [
   {
-    name: "Naser Al-Rashedi",
+    name: "Nasser Al-Rashedi",
     role: "TECHNOLOGY POLICY & GOVERNANCE EXPERT",
     organization: "UAE Government Entity",
     image: "https://meridianexchange.net/images/naser-alrashdi.png",
@@ -59,7 +59,7 @@ window.MERIDIAN_SPEAKERS = [
       "https://www.linkedin.com/in/muhammadshafiq?utm_source=chatgpt.com",
   },
   {
-    name: "Prof Hossam Elshenraki",
+    name: "Prof. Hossam Elshenraki",
     role: "PROFESSOR IN CRIMINAL INVESTIGATION",
     organization: "Dubai Police Academy",
     image: "https://meridianexchange.net/images/hossam-elshenraki.jpeg",
@@ -193,8 +193,9 @@ window.MERIDIAN_SPEAKERS = [
   },
   {
     name: "Maryam Al Mansoori",
-    role: "HEAD OF CAPACITY BUILDING, Office of AI, DIGITAL ECONOMY AND REMOTE WORK APPLICATIONS",
-    organization: "UAE Government",
+    role: "HEAD OF CAPACITY BUILDING",
+    organization:
+      "Ministry of State Office of AI, Digital Economy & Remote Work Applications",
     image: "./images/Maryam Al Mansoori.jpeg",
     linkedin: "https://www.linkedin.com/in/maryam-al-mansoori/",
   },
@@ -271,20 +272,25 @@ window.MERIDIAN_SPEAKERS = [
 
 const requestedSpeakerOrder = [
   "Maryam Al Mansoori",
-  "Naser Al-Rashedi",
-  "Prof Hossam Elshenraki",
+  "Nasser Al-Rashedi",
+  "Basema Aljaberi",
   "Vijay Velayutham",
-  "Khulood Abdulrahman Alawadhi",
+  "Prof. Hossam Elshenraki",
   "Jonathan A Kwofie",
-  "Jacob Mathew",
+  "Khulood Abdulrahman Alawadhi",
   "Christopher Booth",
   "Sanjay Kumar",
   "Adel Miran",
-  "Dr. Pramod Kumar",
+  "Jacob Mathew",
   "Heide Young",
   "Dr. Nader M. Ghazal",
   "Antonio Rotondo",
   "Shiju P.",
+  "Dr. Raphael Heffron",
+  "Dr. Nasiruddeen Muhammad",
+  "Dr. Pramod Kumar",
+  "Wajdi Mereb",
+  "Muhammad Awais Afzal Mirza",
   "Kanat Kutluk",
   "Dr. Naim Maadad",
   "Vanessa Abernethy",
@@ -299,12 +305,7 @@ const requestedSpeakerOrder = [
   "Eng. Sameh Hahlias",
   "Ammar Al Horani",
   "Dr. Anas Najdawi",
-  "Wajdi Mereb",
-  "Muhammad Awais Afzal Mirza",
   "Mrs. Emine Yilmaz Butun",
-  "Dr. Raphael Heffron",
-  "Dr. Nasiruddeen Muhammad",
-  "Basema Aljaberi",
 ];
 
 const requestedSpeakerOrderIndex = new Map(
