@@ -206,9 +206,9 @@ window.MERIDIAN_SPEAKERS = [
     linkedin: "https://www.linkedin.com/in/khulood-alawadhi-a46a4b50/",
   },
   {
-    name: "Dr. Harris M. Khalid",
-    role: "ASSOCIATE PROFESSOR, World's Top 2% Scientist in Energy Power Systems",
-    organization: "University of Dubai",
+    name: "Dr. Harris M. Khalid, SMIEE, FHEA",
+    role: "World's Top 2% Scientist in Energy",
+    organization: "Associate Professor, Power Systems, University of Dubai",
     image: "./images/Haris M. Khalid.jpeg",
     linkedin: "https://www.linkedin.com/in/harismkhalid/",
   },
