@@ -219,14 +219,7 @@ window.MERIDIAN_SPEAKERS = [
     image: "./images/Adel Meridian.jpg",
     linkedin: "https://www.linkedin.com/in/adel-miran-09802835/",
   },
-  {
-    name: "Sadiya Kausar",
-    role: "CO-FOUNDER & ECOSYSTEM BUILDER",
-    organization: "Decoding Data Science",
-    image: "./images/SadiyaKausar.jpeg",
-    linkedin:
-      "https://www.linkedin.com/in/sadiya-kauser-ahmad/?isSelfProfile=false",
-  },
+
   {
     name: "Wajdi Mereb",
     role: "DIGITAL TRANSFORMATION AND INNOVATION LEADER",
@@ -242,13 +235,7 @@ window.MERIDIAN_SPEAKERS = [
     linkedin:
       "https://www.linkedin.com/in/muhammad-awais-afzal-mirza-31ba59331/",
   },
-  {
-    name: "Ram Jalan",
-    role: "VP, TRANSFORMATION AND PRODUCT",
-    organization: "",
-    image: "./images/Ram Jalan.jpg",
-    linkedin: "https://www.linkedin.com/in/ramjalan/",
-  },
+
   {
     name: "Mrs. Emine Yilmaz Butun",
     role: "FOUNDING CHAIRPERSON",
