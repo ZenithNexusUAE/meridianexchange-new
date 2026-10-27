@@ -18,7 +18,7 @@ window.MERIDIAN_SPEAKERS = [
     name: "Amro Almashharawi",
     role: "CEO",
     organization: "Data Center Prime (DCP)",
-    image: "https://meridianexchange.net/images/amro-mashharawi.jpeg",
+    image: "./images/amro.jpeg",
     linkedin: "https://www.linkedin.com/in/amrocoffeeman",
   },
   {
@@ -116,7 +116,7 @@ window.MERIDIAN_SPEAKERS = [
     name: "Dr. Pramod Kumar",
     role: "PRINCIPAL SCIENTIST",
     organization: "Quantum Photonics",
-    image: "https://meridianexchange.net/images/pramod-kumar.png",
+    image: "./images/pramod-kumar.png",
     linkedin:
       "https://www.linkedin.com/in/drpramodkumar/?utm_source=chatgpt.com",
   },
