@@ -116,7 +116,7 @@ window.MERIDIAN_SPEAKERS = [
     name: "Dr. Pramod Kumar",
     role: "PRINCIPAL SCIENTIST",
     organization: "Quantum Photonics",
-    image: "https://meridianexchange.net/images/pramod-kumar.jpeg",
+    image: "https://meridianexchange.net/images/pramod-kumar.png",
     linkedin:
       "https://www.linkedin.com/in/drpramodkumar/?utm_source=chatgpt.com",
   },

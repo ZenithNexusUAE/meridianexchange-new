@@ -1330,7 +1330,7 @@ body {
 }
 
 .mx-card-visual {
-  height: 125px;
+  height: 180px;
 
   position: relative;
 
@@ -1340,300 +1340,19 @@ body {
   margin-bottom: 8px;
 }
 
-.mx-platform {
-  position: absolute;
-
-  width: 175px;
-  height: 54px;
-
-  bottom: 5px;
-
-  border-radius: 50%;
-
-  background: linear-gradient(180deg, #ffffff, #e4f3ff);
-
-  box-shadow:
-    0 8px 18px rgba(26, 109, 174, 0.08),
-    0 0 0 1px rgba(74, 169, 235, 0.17),
-    0 0 25px rgba(70, 170, 245, 0.14);
-}
-
-.mx-table-icon {
+.mx-card-image {
   position: relative;
+  z-index: 1;
 
-  width: 130px;
-  height: 90px;
-}
+  width: 100%;
+  height: 100%;
 
-.mx-table-top {
-  position: absolute;
+  border: 1px solid rgba(74, 169, 235, 0.2);
+  border-radius: 12px;
 
-  left: 27px;
-  top: 30px;
+  object-fit: cover;
 
-  width: 78px;
-  height: 42px;
-
-  border-radius: 50%;
-
-  background: linear-gradient(180deg, #ffffff, #d9edfb);
-
-  border: 2px solid #b6d8ef;
-
-  box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.03);
-}
-
-.mx-table-top::after {
-  content: "";
-
-  position: absolute;
-
-  width: 8px;
-  height: 8px;
-
-  left: 33px;
-  top: 15px;
-
-  border-radius: 50%;
-
-  background: #1786dc;
-}
-
-.mx-table-icon .chair {
-  position: absolute;
-
-  display: block;
-
-  width: 21px;
-  height: 16px;
-
-  border-radius: 5px;
-
-  background: linear-gradient(145deg, #eef8ff, #c8e2f5);
-
-  border: 1px solid #acd0e9;
-}
-
-.chair-1 {
-  left: 5px;
-  top: 40px;
-}
-
-.chair-2 {
-  left: 22px;
-  top: 10px;
-}
-
-.chair-3 {
-  left: 53px;
-  top: 1px;
-}
-
-.chair-4 {
-  right: 20px;
-  top: 12px;
-}
-
-.chair-5 {
-  right: 2px;
-  top: 42px;
-}
-
-.chair-6 {
-  left: 54px;
-  bottom: -2px;
-}
-
-.mx-people-icon {
-  position: relative;
-
-  width: 135px;
-  height: 100px;
-}
-
-.mx-person {
-  position: absolute;
-
-  bottom: 8px;
-
-  width: 42px;
-  height: 80px;
-}
-
-.mx-person b {
-  display: block;
-
-  width: 29px;
-  height: 29px;
-
-  margin: auto;
-
-  border-radius: 50%;
-
-  background: linear-gradient(145deg, #c3e5fb, #5ca6d9);
-}
-
-.mx-person i {
-  display: block;
-
-  width: 42px;
-  height: 45px;
-
-  margin-top: 5px;
-
-  border-radius: 20px 20px 7px 7px;
-
-  background: linear-gradient(145deg, #dff2ff, #78b7e5);
-}
-
-.mx-person-left {
-  left: 2px;
-  transform: scale(0.82);
-}
-
-.mx-person-center {
-  left: 47px;
-
-  z-index: 2;
-}
-
-.mx-person-right {
-  right: 2px;
-
-  transform: scale(0.82);
-}
-
-.mx-government {
-  position: relative;
-
-  width: 135px;
-  height: 110px;
-}
-
-.mx-gov-roof {
-  width: 0;
-  height: 0;
-
-  margin: auto;
-
-  border-left: 67px solid transparent;
-
-  border-right: 67px solid transparent;
-
-  border-bottom: 28px solid #b8daf2;
-}
-
-.mx-gov-columns {
-  display: flex;
-
-  justify-content: space-around;
-
-  padding: 7px 17px 0;
-}
-
-.mx-gov-columns i {
-  display: block;
-
-  width: 9px;
-  height: 51px;
-
-  border-radius: 3px;
-
-  background: linear-gradient(90deg, #9bc6e7, #edf8ff, #9bc6e7);
-}
-
-.mx-gov-base {
-  position: absolute;
-
-  left: 5px;
-  bottom: 8px;
-
-  width: 125px;
-  height: 8px;
-
-  border-radius: 5px;
-
-  background: #a8cee9;
-}
-
-.mx-industry {
-  position: relative;
-
-  width: 130px;
-  height: 115px;
-}
-
-.mx-industry .cube {
-  position: absolute;
-
-  display: block;
-
-  width: 39px;
-  height: 39px;
-
-  border-radius: 4px;
-
-  background: linear-gradient(145deg, #9ed6ff, #176abd);
-
-  box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.7),
-    0 7px 13px rgba(15, 99, 174, 0.12);
-}
-
-.mx-industry .cube::before {
-  content: "";
-
-  position: absolute;
-
-  left: 0;
-  top: -9px;
-
-  width: 39px;
-  height: 12px;
-
-  border-radius: 4px;
-
-  background: #d2ecff;
-
-  transform: skewX(-35deg);
-}
-
-.mx-industry .cube::after {
-  content: "";
-
-  position: absolute;
-
-  right: -8px;
-  top: -2px;
-
-  width: 9px;
-  height: 40px;
-
-  border-radius: 3px;
-
-  background: #125c9e;
-
-  transform: skewY(-35deg);
-}
-
-.cube-1 {
-  left: 8px;
-  top: 52px;
-}
-
-.cube-2 {
-  left: 47px;
-  top: 30px;
-}
-
-.cube-3 {
-  right: 6px;
-  top: 52px;
-}
-
-.cube-4 {
-  left: 47px;
-  top: 70px;
+  box-shadow: 0 8px 18px rgba(26, 109, 174, 0.1);
 }
 
 .mx-card-info {
@@ -1855,7 +1574,7 @@ body {
   }
 
   .mx-card {
-    height: 415px;
+    height: auto;
   }
 
   .mx-community-footer {
