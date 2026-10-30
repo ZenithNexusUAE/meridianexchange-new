@@ -207,7 +207,7 @@ window.MERIDIAN_SPEAKERS = [
     linkedin: "https://www.linkedin.com/in/khulood-alawadhi-a46a4b50/",
   },
   {
-    name: "Dr. Harris M. Khalid, SMIEE, FHEA",
+    name: "Dr. Haris M Khalid, SMIEEE, FHEA",
     role: "World's Top 2% Scientist in Energy",
     organization: "Associate Professor, Power Systems, University of Dubai",
     image: "./images/Haris M. Khalid.jpeg",
