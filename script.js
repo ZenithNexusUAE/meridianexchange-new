@@ -304,7 +304,67 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const track = document.querySelector("#mx-speakers-track");
 
-  const cards = document.querySelectorAll(".mx-speaker-card");
+  if (!track) return;
+
+  if (!Array.isArray(window.MERIDIAN_SPEAKERS)) {
+    throw new Error("Speaker data is unavailable for the homepage carousel.");
+  }
+
+  function escapeSpeakerHtml(value) {
+    return String(value)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#39;");
+  }
+
+  track.innerHTML = window.MERIDIAN_SPEAKERS.map(function (speaker) {
+    const linkedinUrl = speaker.linkedin || "#";
+    const imageClass =
+      speaker.name === "Eng. Sameh Hahlias" ? " mx-speaker-image-sameh" : "";
+    const imageMarkup = speaker.image
+      ? '<img src="' +
+        escapeSpeakerHtml(speaker.image) +
+        '" alt="' +
+        escapeSpeakerHtml(speaker.name) +
+        '" loading="lazy" />'
+      : "";
+
+    return (
+      '<article class="mx-speaker-card">' +
+      '<a class="mx-speaker-link" href="' +
+      escapeSpeakerHtml(linkedinUrl) +
+      '" target="_blank" rel="noopener noreferrer">' +
+      '<div class="mx-speaker-image' +
+      imageClass +
+      '">' +
+      imageMarkup +
+      '<div class="mx-speaker-image-overlay"></div>' +
+      "</div>" +
+      "</a>" +
+      '<div class="mx-speaker-info">' +
+      '<div class="mx-speaker-top"><h3>' +
+      escapeSpeakerHtml(speaker.name) +
+      "</h3></div>" +
+      '<div class="mx-speaker-gold-line"></div>' +
+      '<div class="mx-speaker-role">' +
+      escapeSpeakerHtml(speaker.role) +
+      "</div>" +
+      "<p>" +
+      escapeSpeakerHtml(speaker.organization) +
+      "</p>" +
+      '<a class="mx-speaker-more" href="' +
+      escapeSpeakerHtml(linkedinUrl) +
+      '" target="_blank" rel="noopener noreferrer" aria-label="View ' +
+      escapeSpeakerHtml(speaker.name) +
+      '">&rarr;</a>' +
+      "</div>" +
+      "</article>"
+    );
+  }).join("");
+
+  const cards = track.querySelectorAll(".mx-speaker-card");
 
   const next = document.querySelector("#mx-speaker-next");
 
