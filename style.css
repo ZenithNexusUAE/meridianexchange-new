@@ -438,7 +438,7 @@ body {
 
 .hero-title {
   font-family: "Rajdhani", "Inter", Arial, Helvetica, sans-serif;
-  font-size: clamp(56px, 4vw, 86px);
+  font-size: clamp(56px, 5vw, 86px);
 
   line-height: 0.88;
 
@@ -463,13 +463,13 @@ body {
 }
 .hero-title-2 {
   font-family: "Rajdhani", "Inter", Arial, Helvetica, sans-serif;
-  font-size: clamp(56px, 3vw, 86px);
+  font-size: clamp(30px, 2.3vw, 86px);
 
   line-height: 0.88;
 
   font-weight: 600;
 
-  letter-spacing: -3px;
+  letter-spacing: -1px;
 
   margin-bottom: 20px;
 }
