@@ -17,12 +17,12 @@ body {
   color: var(--deep-navy);
   background-color: var(--body-bg);
   background-image:
-    linear-gradient(rgba(238, 244, 247, 0.9), rgba(238, 244, 247, 0.9)),
+    linear-gradient(rgba(238, 244, 247, 0.936), rgba(238, 244, 247, 0.893)),
     url("./image/whole-bg.png");
   background-attachment: fixed;
-  background-position: center top;
+  background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   font-family: "Inter", "Avenir Next", Arial, Helvetica, sans-serif;
 }
 
@@ -442,7 +442,7 @@ body {
 
   line-height: 0.88;
 
-  font-weight: 600;
+  font-weight: 700;
 
   letter-spacing: -3px;
 
@@ -461,7 +461,18 @@ body {
 
   color: #092e59;
 }
+.hero-title-2 {
+  font-family: "Rajdhani", "Inter", Arial, Helvetica, sans-serif;
+  font-size: clamp(56px, 3vw, 86px);
 
+  line-height: 0.88;
+
+  font-weight: 600;
+
+  letter-spacing: -3px;
+
+  margin-bottom: 20px;
+}
 .hero-subtitle {
   font-family: "Rajdhani", "Inter", Arial, Helvetica, sans-serif;
 
@@ -595,6 +606,8 @@ body {
 
   font-size: 15px;
 
+  font-weight: 700;
+
   color: #092e59;
 }
 
@@ -606,6 +619,10 @@ body {
   gap: 10px;
 
   white-space: nowrap;
+}
+
+.event-item span {
+  font-weight: 700;
 }
 
 .event-icon {
