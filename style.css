@@ -259,7 +259,7 @@ body {
     ),
     url(./image/hero.png); */
 
-  background-image: url(./image/hero.png);
+  /* background-image: url(./image/hero.png); */
 
   background-size: cover;
   background-position: center center;
@@ -522,7 +522,7 @@ body {
 
 .hero-btn {
   height: 58px;
-  width: 100%;
+  width: 32%;
 
   padding: 0 31px;
 
