@@ -427,13 +427,10 @@ body {
 }
 
 .hero-label {
-  font-family: "Inter", Arial, Helvetica, sans-serif;
-  font-size: 20px;
-  font-weight: 900;
-  line-height: 1.1;
-  text-transform: uppercase;
-  letter-spacing: 0;
-  color: #092e59;
+  display: block;
+  width: 260px;
+  height: auto;
+  margin: 0 auto;
 }
 
 .hero-label-divider {
