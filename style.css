@@ -410,37 +410,37 @@ body {
 
 .hero-content {
   position: absolute;
-
   left: 50%;
-
   top: 125px;
-
-  width: 800px;
-
+  width: 953px;
   text-align: center;
-
   transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-brand {
+  width: max-content;
+  max-width: 100%;
 }
 
 .hero-label {
-  font-family: "Space Mono", monospace;
-
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-size: 20px;
-
-  letter-spacing: 4px;
-
+  font-weight: 900;
+  line-height: 1.1;
   text-transform: uppercase;
-
+  letter-spacing: 0;
   color: #092e59;
-
-  /* margin-bottom: 12px; */
 }
 
 .hero-label-divider {
   display: flex;
   align-items: center;
-  gap: 14px;
-  width: min(272px, 70vw);
+  gap: 6px;
+  width: 90%;
   margin: 0 auto 20px;
 }
 
@@ -451,9 +451,9 @@ body {
 }
 
 .hero-label-divider-diamond {
-  width: 14px;
-  height: 14px;
-  flex: 0 0 14px;
+  width: 8px;
+  height: 8px;
+  flex: 0 0 8px;
   background: #092e59;
   transform: rotate(45deg);
 }
@@ -555,7 +555,7 @@ body {
 
 .hero-btn {
   height: 58px;
-  width: 32%;
+  width: 237px;
 
   padding: 0 31px;
 
@@ -972,7 +972,7 @@ body {
   animation: heroReveal 0.8s ease forwards;
 }
 
-.hero-label {
+.hero-brand {
   animation-delay: 0.2s !important;
 }
 
