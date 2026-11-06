@@ -259,7 +259,7 @@ body {
     ),
     url(./image/hero.png); */
 
-  /* background-image: url(./image/hero.png); */
+  background-image: url(./image/hero.png);
 
   background-size: cover;
   background-position: center center;
