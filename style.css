@@ -433,7 +433,29 @@ body {
 
   color: #092e59;
 
-  margin-bottom: 20px;
+  margin-bottom: 12px;
+}
+
+.hero-label-divider {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  width: min(272px, 70vw);
+  margin: 0 auto 20px;
+}
+
+.hero-label-divider > span:not(.hero-label-divider-diamond) {
+  flex: 1;
+  height: 2px;
+  background: #092e59;
+}
+
+.hero-label-divider-diamond {
+  width: 14px;
+  height: 14px;
+  flex: 0 0 14px;
+  background: #092e59;
+  transform: rotate(45deg);
 }
 
 .hero-title {
