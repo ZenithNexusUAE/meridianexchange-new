@@ -238,7 +238,7 @@ window.MERIDIAN_SPEAKERS = [
   },
 
   {
-    name: "Mrs. Emine Yilmaz Butun",
+    name: "Emine Yilmaz Butun",
     role: "FOUNDING CHAIRPERSON",
     organization: "ITT Nexus",
     image: "./images/Emine Yilmaz Butun.jpg",
@@ -305,7 +305,7 @@ const requestedSpeakerOrder = [
   "Eng. Sameh Hahlias",
   "Ammar Al Horani",
   "Dr. Anas Najdawi",
-  "Mrs. Emine Yilmaz Butun",
+  "Emine Yilmaz Butun",
 ];
 
 const requestedSpeakerOrderIndex = new Map(
