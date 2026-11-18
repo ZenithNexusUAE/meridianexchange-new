@@ -268,6 +268,20 @@ window.MERIDIAN_SPEAKERS = [
     image: "./images/Basema Aljaberi.jpg",
     linkedin: "https://www.linkedin.com/in/basema/?isSelfProfile=false",
   },
+  {
+    name: "Rudy Shoushany",
+    role: "FOUNDER HOST",
+    organization: "DX Talks",
+    image: "./images/Rudy Shoushany.png",
+    linkedin: "https://www.linkedin.com/in/rudyshoushany/?locale=ar",
+  },
+  {
+    name: "Irina Karagyaur",
+    role: "EXPERT CONTRIBUTOR TO UNITED FOR SMART SUSTAINABLE CITIES INITIATIVE (U4SSC)",
+    organization: "International Telecommunication Union",
+    image: "./images/irina.png",
+    linkedin: "https://www.linkedin.com/in/irina-karagyaur/",
+  },
 ];
 
 const requestedSpeakerOrder = [
@@ -306,6 +320,8 @@ const requestedSpeakerOrder = [
   "Ammar Al Horani",
   "Dr. Anas Najdawi",
   "Emine Yilmaz Butun",
+  "Rudy Shoushany",
+  "Irina Karagyaur",
 ];
 
 const requestedSpeakerOrderIndex = new Map(
