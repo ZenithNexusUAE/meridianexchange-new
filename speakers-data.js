@@ -283,7 +283,6 @@ window.MERIDIAN_SPEAKERS = [
     linkedin: "https://www.linkedin.com/in/irina-karagyaur/",
   },
 ];
-
 const requestedSpeakerOrder = [
   "Maryam Al Mansoori",
   "Nasser Al-Rashedi",
