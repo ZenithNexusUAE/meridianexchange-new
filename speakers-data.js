@@ -263,8 +263,7 @@ window.MERIDIAN_SPEAKERS = [
   {
     name: "Basema Aljaberi",
     role: "PMO & Transformation Leader | AI Strategy & Responsible AI Advocate",
-    // organization:
-    //   "Association for the Advancement of Artificial Intelligence (AAAI)",
+    organization: "     ",
     image: "./images/Basema Aljaberi.jpg",
     linkedin: "https://www.linkedin.com/in/basema/?isSelfProfile=false",
   },
