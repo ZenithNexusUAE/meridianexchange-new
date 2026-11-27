@@ -71,8 +71,19 @@
               <li class="nav-item">
                 <a class="nav-link" href="index.html">HOME</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">ABOUT</a>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >ABOUT</a
+                >
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="about.html">About</a></li>
+                  <li><a class="dropdown-item" href="privacy-policy.html">Privacy Policy</a></li>
+                </ul>
               </li>
               <li class="nav-item">
                 <a class="nav-link active" href="speakers.html">SPEAKERS</a>
@@ -138,6 +149,12 @@
         </a>
       </section>
     </main>
+    <footer class="site-footer">
+      <div class="site-footer-inner">
+        <span>MERIDIAN EXCHANGE | DUBAI, UAE</span>
+        <a href="privacy-policy.html">Privacy Policy</a>
+      </div>
+    </footer>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
