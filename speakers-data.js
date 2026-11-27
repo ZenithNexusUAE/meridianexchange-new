@@ -188,7 +188,7 @@ window.MERIDIAN_SPEAKERS = [
     name: "Eng. Sameh Hahlias",
     role: "CEO / FOUNDER / AI ADVISOR · MODERATOR",
     organization: "American Plus",
-    image: "./images/Eng. Sameh Hablas.jpg",
+    image: "./images/Eng. Sameh Hablas.png",
     linkedin: "https://www.linkedin.com/in/samehhahlias/",
   },
   {
